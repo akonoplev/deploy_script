@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>uploadSymbols</key>
+	<true/>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key> 
+			{ Identifier for provision profile below } com.youAppBundleIdentifier.teamo 
+		</key> 
+		<string>
+			{ Provision profile }Teamo_AdHoc
+		</string>
+		<key>
+			{ Identifier for provision profile below} com.youAppBundleIdentifier.notificationServiceExtension</key>
+		<string>
+			{ Provision profile } Teamo_AdHoc NSExtension
+		</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>{Name of your sertificate for example: Apple Distribution: Teamo LLC (L4F2VNZ983D)}</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<false/>
+	<key>teamID</key>
+	<string>L4F2VNZ7U2</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
